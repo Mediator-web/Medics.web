@@ -16,7 +16,7 @@ document.getElementById('loginForm').addEventListener('submit', function(event) 
         
         alert('Login successful!');
         // Redirect to Appointment.html after successful login
-        window.location.href = 'Appointment.html';
+        window.location.href = 'appointment.html';
     } else {
         alert('Invalid email or password!');
     }

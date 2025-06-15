@@ -1,0 +1,96 @@
+/* ==== GLOBAL STYLES ==== */
+body {
+    font-family: Arial, sans-serif;
+    background: url(medics.jpg);
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* ==== WRAPPER CONTAINER ==== */
+.wrapper {
+    background: transparent;
+    width: 400px;
+    height: 540px;
+    padding: 20px;
+    border-radius: 8px;
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(20px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* ==== INNER FORM CONTAINER ==== */
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+/* ==== FORM INPUTS ==== */
+.input-group {
+    margin-bottom: 15px;
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+/* ==== BUTTONS ==== */
+button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #007bff;
+    color: #fff;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #e1e4e8;
+}
+
+/* ==== BACK BUTTON ==== */
+.back-button {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    text-decoration: none;
+    font-size: 16px;
+    color: #007bff;
+    padding: 10px;
+    border: 2px solid #007bff;;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+
+
+
+
+
+.back-button:hover {
+    background-color: #007bff;
+    color: #fff;
+}

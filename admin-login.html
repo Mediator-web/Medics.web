@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Login</title>
+    <link rel="stylesheet" href="admin-login.css">
+</head>
+<body>
+
+    <a href="javascript:history.back()" id="backButton" class="back-button">← Back</a>
+
+    <main class="wrapper">
+        <section class="container">
+            <h2>Admin Login</h2>
+            <form id="adminLoginForm" novalidate>
+                <div class="input-group">
+                    <label for="adminEmail">Email</label>
+                    <input type="email" id="adminEmail" name="adminEmail" required placeholder="admin@example.com">
+                </div>
+                <div class="input-group">
+                    <label for="adminPassword">Password</label>
+                    <input type="password" id="adminPassword" name="adminPassword" required placeholder="Enter password">
+                </div>
+                <button type="submit" class="submit-button">Login</button>
+            </form>
+        </section>
+    </main>
+
+    <script src="admin-login.js"></script>
+</body>
+</html>

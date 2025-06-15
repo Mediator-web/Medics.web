@@ -1,0 +1,175 @@
+/* General Body Styling */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #bfe2ec;
+}
+
+/* Main Container */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+/* Headings */
+h1, h2 {
+    color: #333;
+}
+
+/* Back Button */
+.back-button {
+    display: inline-block;
+    margin: 20px 0;
+    text-decoration: none;
+    font-size: 16px;
+    color: #007bff;
+    padding: 10px;
+    border: 2px solid #007bff;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.back-button:hover {
+    background-color: #007bff;
+    color: #fff;
+}
+
+/* Navigation Button Group */
+.button-group {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.nav-button {
+    background-color: #007acc;
+    color: white;
+    padding: 15px 30px;
+    font-size: 18px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.nav-button:hover {
+    background-color: #005fa3;
+    transform: scale(1.05);
+}
+
+/* Table Container for Scroll on Small Screens */
+.table-container {
+    margin: 20px 0;
+    overflow-x: auto;
+}
+
+/* Table Styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    min-width: 600px;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #f4f4f4;
+}
+
+/* Generic button base */
+button {
+    margin: 5px;
+    padding: 10px 18px;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+/* DELETE BUTTON — RED */
+.delete-button {
+    background-color: #e74c3c; /* Bright red */
+    color: #fff;
+}
+
+.delete-button:hover {
+    background-color: #c0392b; /* Darker red */
+    box-shadow: 0 0 8px rgba(231, 76, 60, 0.6);
+}
+
+/* APPROVE BUTTON — GREEN */
+.approve-button {
+    background-color: #2ecc71; /* Fresh green */
+    color: #fff;
+}
+
+.approve-button:hover {
+    background-color: #27ae60; /* Darker green */
+    box-shadow: 0 0 8px rgba(46, 204, 113, 0.6);
+}
+
+.submit-button {
+    background-color: #007bff;
+    color: #fff;
+}
+
+.submit-button:hover {
+    background-color: #0056b3;
+}
+
+/* Form Input Styling */
+input[type="text"],
+input[type="email"],
+input[type="date"],
+input[type="time"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+/* Section Margin */
+section {
+    margin: 20px 0;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .nav-button {
+        width: 100%;
+        font-size: 16px;
+    }
+
+    th, td {
+        font-size: 14px;
+    }
+
+    .container {
+        padding: 10px;
+    }
+
+    input[type="text"],
+    input[type="email"],
+    input[type="date"],
+    input[type="time"] {
+        font-size: 16px;
+    }
+}

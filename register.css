@@ -1,0 +1,115 @@
+/* ===== Global Styles ===== */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url('medics.jpg') no-repeat center center fixed;
+    background-size: cover;
+    position: relative;
+    font-family: Arial, sans-serif;
+}
+
+/* ===== Wrapper (Form Container) ===== */
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 400px;
+    padding: 20px;
+    background: rgba(248, 251, 253, 0.85);
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    position: relative;
+}
+
+/* ===== Back Button ===== */
+.back-button {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    text-decoration: none;
+    font-size: 16px;
+    color: #007bff;
+    padding: 10px;
+    border: 2px solid #007bff;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.back-button:hover {
+    background-color: #007bff;
+    color: #fff;
+}
+
+/* ===== Form ===== */
+#signUpForm {
+    width: 100%;
+}
+
+/* ===== Input Groups ===== */
+.input-group {
+    margin-bottom: 15px;
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+    font-weight: bold;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+/* ===== Buttons ===== */
+button {
+    width: 100%;
+    padding: 12px;
+    background-color: #10c7f0;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-bottom: 10px;
+}
+
+button:hover {
+    background-color: #007bb5;
+}
+
+/* ===== Admin Login Button (Optional) ===== */
+#adminLoginButton {
+    background-color: #ff5722;
+}
+
+#adminLoginButton:hover {
+    background-color: #e64a19;
+}
+
+/* ===== Login/Register Footer Link ===== */
+.login-register {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.login-register p {
+    margin: 0;
+}
+
+.login-register a {
+    color: #10c7f0;
+    text-decoration: none;
+}
+
+.login-register a:hover {
+    text-decoration: underline;
+}

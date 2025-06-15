@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Medics E-healthcare</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <div class="logo-container">
+            <img src="logo.jpg" alt="Medics Logo" class="logo">
+            <h2 class="welcome">Welcome to Medics E-healthcare</h2>
+        </div>
+        <nav class="navigation">
+            <a href="disease.html">Diseases & Consequences</a>
+            <a href="About Us.html">About Us</a>
+            <a href="Contact.html">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+        <div class="button-container">
+            <button id="signInButton" aria-label="Sign in to your account">Sign In</button>
+            <button id="signUpButton" aria-label="Create a new account">Sign Up</button>
+        </div>
+    </main>
+
+    <script>
+        document.getElementById('signInButton').onclick = () => {
+            window.location.href = 'login.html';
+        };
+
+        document.getElementById('signUpButton').onclick = () => {
+            window.location.href = 'register.html';
+        };
+    </script>
+
+</body>
+</html>

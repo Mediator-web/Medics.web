@@ -1,0 +1,89 @@
+/* Global Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Back Button */
+.back-button {
+    display: inline-block;
+    margin-bottom: 20px;
+    text-decoration: none;
+    font-size: 16px;
+    color: #4A90E2;
+    padding: 8px 16px;
+    border: 2px solid #4A90E2;
+    border-radius: 50px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+
+}
+
+.back-button:hover {
+    background-color: #4A90E2;
+    color: white;
+}
+
+/* Header */
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #4699f8;
+    color: white;
+}
+
+header h1 {
+    margin: 0;
+}
+
+/* Main Content */
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+/* Section Styles */
+.disease {
+    margin-bottom: 30px;
+}
+
+.disease h2 {
+    color: #6200ea;
+    font-size: 1.8em;
+    margin-bottom: 10px;
+}
+
+.description {
+    font-size: 1.1em;
+    margin-bottom: 10px;
+}
+
+.disease h3 {
+    font-size: 1.5em;
+    margin-top: 20px;
+}
+
+/* Image Styling */
+.disease-image {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    display: block;
+    margin: 15px auto;
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+/* List Styles */
+ul {
+    list-style-type: disc;
+    margin-left: 20px;
+    font-size: 1em;
+}
